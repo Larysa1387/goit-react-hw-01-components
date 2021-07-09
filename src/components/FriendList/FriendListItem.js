@@ -19,8 +19,6 @@ const FriendListItem = ({ avatar, name, isOnline }) => {
 	);
 };
 
-// style={{(isOnline=true)? backgroundColor:'green': backgroundColor:'red'}}
-
 FriendListItem.defaultProps = {
 	avatar: defaultImage,
 };
