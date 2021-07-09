@@ -1,6 +1,6 @@
 import React from 'react';
-import PropTypes from 'prop-types'
-import defaultImage from './eyes-285825_960_720.webp';
+import PropTypes from 'prop-types';
+import defaultImage from '../../jsonsFiles/eyes-285825_960_720.webp';
 import './profile.css';
 
 const Profile = ({ avatar, name, tag, location, stats }) => (
