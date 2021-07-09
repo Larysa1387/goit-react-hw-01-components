@@ -4,17 +4,17 @@ import FriendListItem from './FriendListItem';
 import styles from './FriendList.module.css';
 
 const FriendList = ({ friends }) => (
-	<ul className={styles.friend_list}>
-		{friends.map(({ id, name, avatar, isOnline }) => (
-			<li key={id}>
-				<FriendListItem
-					name={name}
-					avatar={avatar}
-					isOnline={isOnline}
-				/>
-			</li>
-		))}
-	</ul>
+  <ul className={styles.friend_list}>
+    {friends.map(({ id, name, avatar, isOnline }) => (
+      <li key={id}>
+        <FriendListItem
+          name={name}
+          avatar={avatar}
+          isOnline={isOnline}
+        />
+      </li>
+    ))}
+  </ul>
 );
 
 FriendList.propTypes = {
