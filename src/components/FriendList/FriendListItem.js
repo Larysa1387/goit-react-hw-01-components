@@ -3,7 +3,7 @@ import PropTypes from 'prop-types';
 import defaultImage from '../../data/eyes-285825_960_720.webp';
 import styles from './FriendList.module.css';
 
-const FriendListItem = ({ avatar, name, isOnline }) => {
+const FriendListItem = ({ avatar, name, isOnlin }) => {
   const activeStatus = (isOnline === true) ? styles.active : styles.offline;
   return (
     <div className={styles.align}>
